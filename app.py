@@ -35,6 +35,7 @@ if st.button("Predict Math Score"):
     st.success(f"Predicted Math Score: {prediction:.2f}")
 
 # Optionally display dataset overview for users
-if st.checkbox("Show dataset overview"):
-    st.write(df.head())
-    st.write(df.describe())
+#if st.checkbox("Show dataset overview"):
+ #   st.write(df.head())
+
+  #  st.write(df.describe())
